@@ -1,0 +1,137 @@
+body{
+    background: #1F93CC;
+    color:#fff;
+}
+#menu_hr{
+    margin : 0;
+    height: 45px;
+    background: #333;
+    width: 100%;
+    padding-left: 6%;
+    font-size: 0.8em;
+    position: fixed;
+    top : 0;
+}
+#menu_left{
+    width: 80%;
+    float: left;
+}
+#menu_hr img{
+    width: 7.5%;
+    padding-top: 0.65%;
+}
+#menu_hr ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+#menu_hr img{
+    margin-right: 20px;
+}
+#menu_hr li,#menu_hr img{
+    float: left;
+}
+#menu_hr li a{
+   display: block;
+   text-decoration: none;
+   color:#fff;
+   line-height: 45px;
+   padding: 0 13px;
+}
+#menu_right li a{
+    float: right;
+    
+    display: block;
+    margin-left: 40px;
+}
+#menu_right i{
+    margin-right: 2px;
+}
+#menu_hr li a:hover{
+    background: #222;
+}
+#heady{
+    margin-top: 85px;
+}
+#head_left{
+    float: left;
+    margin-left: 110px;
+}
+#head_left img{
+    width: 78%;
+}
+#head_right{
+    float: left;
+    margin-left: 62px;
+    font-size: 1.5em;
+    width: 680px;
+}
+#hr_top{
+    margin-left: 11%;
+    margin-top: -8px;
+    margin-bottom: -10px;
+}
+#hr_top img{
+    width: 49%;
+}
+#hr_centre{
+}
+#hr_bottom{
+    margin-left: 11%;
+    margin-top: 50px;
+}
+#bouton{
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #fa0;
+    border: #fff solid 2px;
+    border-radius: 10px 10px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#bouton:hover{
+    background-color: #f60;
+}
+#contenty{
+    display: inline-block;
+    margin-top: 32px;
+}
+#head_contenu,#footcontenu{
+    width: 100%;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 66px;
+}
+#contenu{
+    font-size: .9em;
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-column-gap: 50px;
+    margin: 0 70px;
+}
+#contenu h1{
+    font-size: 1.7em;
+}
+#contenu i{
+    margin-right: 5px;
+}
+#links{
+    background: #eee;
+    padding: 50px 140px;
+    height: 290px;
+}
+#links img{
+    margin: 0 15px;
+}
+#links a>img:first-child{
+    height:40px;
+}
+#links a>img:nth-child(2){
+    height: 70px;
+}

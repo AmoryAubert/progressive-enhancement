@@ -1,3 +1,7 @@
+#wrapper{
+   margin: 0;
+   padding: 0;
+}
 body{
     background: #1F93CC;
     color:#fff;
@@ -8,7 +12,7 @@ body{
     background: #333;
     width: 100%;
     padding-left: 6%;
-    font-size: 0.8em;
+    font-size: 0.85em;
     position: fixed;
     top : 0;
 }
@@ -17,8 +21,8 @@ body{
     float: left;
 }
 #menu_hr img{
-    width: 7.5%;
-    padding-top: 0.65%;
+    height: 20px;
+    padding: 0.7%
 }
 #menu_hr ul{
     margin: 0;
@@ -41,7 +45,6 @@ body{
 }
 #menu_right li a{
     float: right;
-    
     display: block;
     margin-left: 40px;
 }
@@ -81,8 +84,9 @@ body{
     margin-left: 11%;
     margin-top: 50px;
 }
-#bouton{
-    font-size: 0.9em;
+#sbn_btn,#sb_btn{
+   display: inline-block;
+    font-size: 24px;
     color: #fff;
     background-color: #fa0;
     border: #fff solid 2px;
@@ -93,7 +97,7 @@ body{
     margin: 4px 2px;
     cursor: pointer;
 }
-#bouton:hover{
+#sbn_btn:hover,#sb_btn:hover{
     background-color: #f60;
 }
 #contenty{
@@ -105,33 +109,119 @@ body{
     background: #fff;
     color: #000;
     text-align: center;
-    font-size: 1.5em;
-    line-height: 66px;
+    font-size: 28px;
+    display:inline-block;
 }
 #contenu{
-    font-size: .9em;
+    font-size: 18px;
     display: grid;
     grid-template-columns: 47% 47%;
     grid-column-gap: 50px;
-    margin: 0 70px;
+    padding: 0 70px;
 }
 #contenu h1{
-    font-size: 1.7em;
+    font-size: 30px;
 }
 #contenu i{
     margin-right: 5px;
 }
 #links{
     background: #eee;
-    padding: 50px 140px;
-    height: 290px;
+    padding: 30px 100px;
+   text-align: center;
+}
+#links div{
+   display: inline-block;
+   margin: 20px 0;
+   vertical-align: middle;
 }
 #links img{
-    margin: 0 15px;
+    margin: 10px;
 }
-#links a>img:first-child{
-    height:40px;
+#miles img{
+   height:40px;
 }
-#links a>img:nth-child(2){
-    height: 70px;
+#apptruck img{
+   height: 70px;
+}
+#spectrum img{
+   height: 40px;
+}
+#knowit img{
+   height: 40px;
+}
+#hatchery img{
+   height: 50px;
+}
+#fwd img{
+   height: 40px;
+}
+#product-hunt img{
+   height: 80px;
+}
+#blinks{
+   background: #fff;
+   height: 120px;
+   padding: 30px 100px;
+   text-align: center;
+}
+#blinks a{
+   width: 160px;
+}
+#restapi_btn,#docs_btn{
+   display: inline-block;
+   font-size: 24px;
+   color: #fff;
+   background-color: #27f;
+   border: #fff solid 2px;
+   border-radius: 10px 10px;
+   padding: 15px 15px;
+   text-align: center;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+}
+#restapi_btn:hover,#docs_btn:hover{
+   background: #00c;
+}
+footer{
+    margin : 0;
+    margin-bottom: -20px;
+    height: 45px;
+    background: #333;
+    width: 100%;
+    font-size: 15px;
+}
+#fmenu_left{
+    width: 80%;
+    float: left;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    line-height: 40px;
+}
+#fmenu_right li{
+    float: right;
+    display: block;
+    margin-right: 5px;
+}
+footer li a:hover{
+    color: #fa0;
+}
+footer li{
+    float: left;
+}
+footer li a{
+   display: block;
+   text-decoration: none;
+   color:#fff;
+   padding: 0 13px;
+   line-height: 22px;
+   margin-top: 8px;
+}
+footer li:nth-child(-n+4) a{
+   border-right: 1px #fff dotted;
 }

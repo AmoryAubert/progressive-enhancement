@@ -59,19 +59,19 @@ body{
 }
 #head_left{
     float: left;
-    margin-left: 110px;
+    width: 33%;
+    text-align: center;
 }
 #head_left img{
-    width: 78%;
+    width: 50%;
 }
-#head_right{
+#head_center{
     float: left;
-    margin-left: 62px;
     font-size: 1.5em;
-    width: 680px;
+    width: 33%;
+    text-align: center;
 }
 #hr_top{
-    margin-left: 11%;
     margin-top: -8px;
     margin-bottom: -10px;
 }
@@ -81,7 +81,6 @@ body{
 #hr_centre{
 }
 #hr_bottom{
-    margin-left: 11%;
     margin-top: 50px;
 }
 #sbn_btn,#sb_btn{

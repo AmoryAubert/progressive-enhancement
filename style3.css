@@ -1,15 +1,15 @@
 header{
     background: #eee;
-    height: 400px;
 }
 #menu_hr{
     padding : 15px 0;
-    line-height: 40px;
+    line-height: 50px;
     width: 100%;
     font-size: 17px;
 }
 #menu_hr img{
     height: 40px;
+    margin-top: 5px;
 }
 #menu_hr ul{
     margin: 0;
@@ -29,9 +29,180 @@ header{
 }
 #menu_hr ul li:nth-last-child(4){
     border: 1px solid #000;
+    border-radius: 5px 0 0 5px;
+    background: #37f;
+    line-height: 30px;
+    padding: 0;
+    margin: 2px 0;
+}
+#menu_hr ul li:nth-last-child(4) a{
+    color: #fff;
 }
 #menu_hr ul li:nth-last-child(5){
     border: 1px solid #000;
+    border-radius: 0 5px 5px 0;
     border-left: 0px;
-    
+    background: #fff;
+    line-height: 30px;
+    padding: 0;
+    margin: 2px 0;
+}
+#menu_hr li:nth-child(-n+4) a:hover,#menu_hr li:nth-child(n+7) a:hover{
+    color: #666;
+}
+#menu_hr ul li:nth-last-child(4):hover{
+    background: #33c;
+}
+#menu_hr ul li:nth-last-child(5):hover{
+    background: #ddd;
+}
+#head_hr{
+    color: #333;
+    text-align: center;
+    margin: 100px auto 50px auto;
+    font-size: 40px;
+}
+#artlist{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    background: #404656;
+    border-top: 1px #000 solid;
+    border-bottom: 1px #000 solid;
+}
+#artlist article:nth-child(-n+3){
+    border-right: 1px solid #333;
+}
+#artlist img{
+    padding-top: 40px;
+}
+#artlist h1{
+    font-size: 20px;
+    color: #fff;
+}
+#artlist p{
+    color: #ddd;
+    padding: 0 40px 30px 40px;
+}
+main{
+    background: #EBECF1;
+}
+#tryit{
+    text-align: center;
+    padding: 20px 300px;
+}
+#desc{
+    font-size: 21px;
+    margin: 20px 0;
+}
+#tryit_btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    background: #37f;
+    border: solid 1px #000;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#tryit_btn:hover{
+    background: #33C;
+}
+#comm{
+    font-size: 14px;
+    margin-top: 24px;
+}
+#mac_img{
+    text-align: center;
+}
+#offer{
+    text-align: center;
+    padding: 20px 300px;
+    background: #fff;
+    color: #333;
+}
+#offer img{
+    height: 94px;
+}
+#of_desc{
+    font-size: 21px;
+    margin: 20px 0;
+    }
+#of_list{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#of_month{
+    border-right: 1px #eee solid;
+}
+#of_self{
+    border-left: 1px #eee solid;
+}
+#of_list h1{
+    font-size: 20px;
+}
+#of_list p{
+    line-height: 10px;
+    font-size: 18px;
+}
+#of_list a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 15px;
+    background: #37f;
+    border: solid 1px #000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#of_list a:hover{
+    background: #33c;
+}
+#of_list p+p+p{
+    padding-bottom: 30px;
+}
+#of_list a+p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-style: italic;
+}
+#who{
+    text-align: center;
+    color: #333;
+    padding-bottom: 20px;
+}
+#art_who{
+    font-size: 22px;
+    padding: 20px 300px;
+}
+#art_who h1{
+    font-size: 28px;
+}
+#who img{
+    width: 80%;
+}
+#sform{
+    background: #fff;
+    color: #333;
+    padding: 20px 300px;
+    text-align: center;
+}
+#sform p{
+    padding: 0 30px;
+}
+#sform p,#sform h1{
+}
+form{
+    color: #111;
+    text-align: left;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form:nth-last-child(2),form p{
+    text-align: center;
 }

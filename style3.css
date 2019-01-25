@@ -182,27 +182,107 @@ main{
 #sform{
     background: #fff;
     color: #333;
-    padding: 20px 300px;
+    padding: 20px 300px 90px 300px;
     text-align: center;
 }
-#sform p{
-    padding: 0 30px;
+#sform h1+p{
+    padding: 0 160px;
 }
 #sform p,#sform h1{
 }
 form{
     color: #111;
     text-align: left;
+    background: #EAEEF1;
+    width: 50%;
+    margin: 0 auto;
+    border: solid #666 1px;
+    border-radius: 5px;
+    padding: 30px 50px;
 }
 input[type=text]{
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 8px 10px;
+  margin-bottom: 14px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
-form:nth-last-child(2),form p{
+form label{
+  font-weight: bold;
+}
+#submit,form p{
     text-align: center;
+}
+input[type=submit]{
+    color: #fff;
+    padding: 5px 10px;
+    background: #37f;
+    border: solid 1px #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 15px 0 8px 0;
+}
+input[type=submit]:hover{
+    background: #33C;
+}
+#sform a,#sform form+p{
+  color: #666;
+}
+#sform form+p{
+  padding: 0;
+  margin: 30px 0 0 0px;
+}
+#sform a{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+footer{
+  padding: 50px 100px;
+  background : #404656;
+}
+#fmenu{
+  
+  display: grid;
+  grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+  
+}
+#fmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#fmenu ul li:first-child{
+  color: #aaa;
+  padding-bottom: 5px;
+}
+#fmenu a{
+    text-decoration: none;
+    color: #fff;
+}
+#fmenu a:hover{
+    color: #aaa;
+}
+#social{
+  text-align: center;
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+#social img{
+  height: 40px;
+}
+#social a:hover{
+  -webkit-filter: invert(.8);
+  filter: invert(.8);
+}
+#social p{
+  font-size: 15px;
+  color: #aaa;
+  margin:0;
+  padding: 0;
+}
+#social a+p{
+  margin-top: 30px;
 }
